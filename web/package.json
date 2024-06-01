@@ -14,6 +14,7 @@
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
     "@mui/material": "^5.15.19",
+    "@prisma/client": "^5.14.0",
     "axios": "^1.7.2",
     "formik": "^2.4.6",
     "formik-mui": "^5.0.0-alpha.0",
@@ -32,6 +33,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
+    "prisma": "^5.14.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

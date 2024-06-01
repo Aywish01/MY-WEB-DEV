@@ -63,7 +63,7 @@ const EmployeeProfileForm = () => {
     <div className="employee-form-container">
       <AppBar className="app-bar" position="static" style={{ backgroundColor: '#FFC0CB' }}>
         <Toolbar className="toolbar">
-          <Typography variant="h5" className="title">
+          <Typography variant="h5" className="title" style={{ flexGrow: 1, textAlign: 'left' }}>
             Employee Management
           </Typography>
           <Link href="/profile" variant="h5" className="link1" style={{ margin: '0 10px', color: '#333' }}>
@@ -172,8 +172,6 @@ const EmployeeProfileForm = () => {
                 }}
               >
                 {({ isSubmitting, errors, touched }) => (
-                  
-
                   <Form>
                     <Field
                       as={TextField}
@@ -246,8 +244,8 @@ const EmployeeProfileForm = () => {
           </Dialog>
         </Paper>
       </Container>
-      <footer className="footer1" style={{ backgroundColor: '#FFC0CB', height: '50px' }}>
-        <Typography variant="body1" style={{ margin: '0 10px', marginTop: '540px', textAlign: 'center' }}>
+      <footer className="footer1" style={{ backgroundColor: '#FFC0CB', height: '50px', marginTop: '20px' }}>
+        <Typography variant="body1" style={{ margin: '0 10px', textAlign: 'center' }}>
           © {new Date().getFullYear()} Irish Jean Gillona. All rights reserved.
         </Typography>
       </footer>
