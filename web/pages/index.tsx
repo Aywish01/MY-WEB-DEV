@@ -73,24 +73,24 @@ const Home = () => {
         <Box className={classes.prompt}>
           {tabIndex === 0 ? (
             <>
-              <h3></h3>
+              <h3>Don't have an account?</h3>
               <Button
                 onClick={() => setTabIndex(1)}
                 variant="contained"
                 className={classes.button}
               >
-                
+                Sign Up
               </Button>
             </>
           ) : (
             <>
-              <h3></h3>
+              <h3>Already have an account?</h3>
               <Button
                 onClick={() => setTabIndex(0)}
                 variant="contained"
                 className={classes.button}
               >
-                
+                Login
               </Button>
             </>
           )}
